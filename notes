@@ -1,0 +1,45 @@
+class Environment:
+	keep track of time
+	run through control flow
+	output performance object
+
+class DataHandler:
+
+class HistDataDotComHandler(DataHandler):
+
+
+class OandaDataHandler(DataHandler):
+
+
+
+class Optimize:
+	given strategy and parameters to optimize, according to objectivefoo return set of optimal params
+
+class Strategy:
+	get_signals - any R in (-1,1) for each asset, along with order type optimized values
+
+
+class Portfolio:
+	keep track of positions, capital, capital_used, pnl, portfolio_value, start_capital, returns, start_date
+	strategies, strategy_returns, interest_paid, commision_paid
+
+	run through roundrobin all strategies in portfolio
+	weight strategies signals based on some portfolio optimization techniques, calculate amount
+	aggregate orders if possible
+	submit orders
+
+class Order:
+	market, limit, stop, stoplimit, trailingstop, takeprofit
+
+class Performance:
+	strategies
+	graph_returns
+	graph_trades
+	compare_strategies
+	monte_carlo
+	beta
+	alpha
+	other indicators
+
+exceptionhandling close out all positions
+daily report
